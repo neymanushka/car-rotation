@@ -1,0 +1,74 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow:hidden;
+    height: 100%;
+    width: 100%;
+}
+
+#app {
+    position: relative;
+}
+
+.bubble {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.speedometer {
+    top: 30px;
+    left: 50px;
+}
+
+.transmission {
+    top: 30px;
+    right: 50px;
+}
+
+
+.value {
+    padding: 10px 0;
+    text-align: center;
+    vertical-align: text-bottom;
+}
+
+.panel {
+    position: absolute;
+    width: 400px;
+    height: 150px;
+    border-radius: 8px;
+    background-color: white;
+    border: 2px solid black;
+    bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+#buttonForward {   
+    position: relative;
+    top:10px;
+    left: 40%;
+}
+
+#buttonBackward {
+    position: relative;
+    top: 90px;
+    left: -160px;
+}
+
+#buttonLeft {
+    position: relative;
+    top: 50px;
+}
+
+#buttonRight {
+    position: relative;
+    top: 50px;
+    margin-left: 130px;
+}
